@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.single-job {
+  border: black solid 2px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 500px;
+}
+
+.single-job:last-child {
+  background-color: red;
+  color: white;
+}
+
+.last-box {
+  height: 300px;
+  width: 50px;
+  background-color: red;
+}
